@@ -1,8 +1,8 @@
 //
-//  File.swift
+//  presets.swift
 //  
 //
-//  Created by 周哲輝 on 2020/08/28.
+//  Created by Tetsuki Syu on 2020/08/28.
 //
 
 import Foundation
