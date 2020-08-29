@@ -1,6 +1,8 @@
 # owoifySwift
 Turning your worst nightmare into a Swift package.
 
+![Swift](https://github.com/deadshot465/OwoifySwift/workflows/Swift/badge.svg)
+
 This is a Swift port of [mohan-cao's owoify-js](https://github.com/mohan-cao/owoify-js), which will help you turn any string into nonsensical babyspeak similar to LeafySweet's infamous Chrome extension.
 
 Just like my other Owoify ports, three levels of owoness are available:
