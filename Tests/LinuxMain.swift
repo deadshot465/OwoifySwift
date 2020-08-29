@@ -1,7 +1,7 @@
 import XCTest
 
-import owoifySwiftTests
+import OwoifySwiftTests
 
 var tests = [XCTestCaseEntry]()
-tests += owoifySwiftTests.allTests()
+tests += OwoifySwiftTests.allTests()
 XCTMain(tests)
