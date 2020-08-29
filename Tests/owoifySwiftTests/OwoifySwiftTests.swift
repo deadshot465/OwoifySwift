@@ -1,5 +1,5 @@
 import XCTest
-@testable import owoifySwift
+@testable import OwoifySwift
 
 final class owoifySwiftTests: XCTestCase {
     func testExample() {

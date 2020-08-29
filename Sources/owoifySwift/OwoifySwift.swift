@@ -3,11 +3,11 @@ import Foundation
 let WORD_REGEX = try! NSRegularExpression(pattern: #"[^\s]+"#, options: [])
 let SPACE_REGEX = try! NSRegularExpression(pattern: #"\s+"#, options: [])
 
-enum OwoifyLevel {
+public enum OwoifyLevel {
     case Owo, Uwu, Uvu
 }
 
-func owoify(source: String, level: OwoifyLevel = OwoifyLevel.Owo) -> String {
+public func owoify(source: String, level: OwoifyLevel = OwoifyLevel.Owo) -> String {
     let wordMatches = WORD_REGEX.matches(in: source, options: [], range: NSMakeRange(0, source.count))
     let spaceMatches = SPACE_REGEX.matches(in: source, options: [], range: NSMakeRange(0, source.count))
     var words: [Word] = wordMatches.map { res in

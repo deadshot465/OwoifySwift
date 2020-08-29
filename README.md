@@ -31,7 +31,7 @@ Alternatively, you can read the article [here](https://developer.apple.com/docum
 owoifySwift is implemented as a single function. That means you don't need to create an instance of any class; instead, just call the method `owoify` and pass the string you want to owoify and optionally provide a level of owoness.
 
 ```swift
-import owoifySwift
+import OwoifySwift
 
 func main() {
     print(owoify(source: "This is the string to owo! Kinda cute, isn't it?"))
