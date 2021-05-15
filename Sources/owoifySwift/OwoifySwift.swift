@@ -15,7 +15,7 @@ public func owoify(source: String, level: OwoifyLevel = OwoifyLevel.Owo) -> Stri
         let group0: String = nsString.substring(with: res.range(at: 0))
         return Word(group0)
     }
-    var spaces: [Word] = spaceMatches.map { res in
+    let spaces: [Word] = spaceMatches.map { res in
         let nsString = source as NSString
         let group0: String = nsString.substring(with: res.range(at: 0))
         return Word(group0)
